@@ -29,7 +29,7 @@ start_mint_cat() {
 # 查看钱包余额
 check_wallet_balance() {
   cd ~/cat-token-box/packages/cli
-  sudo yarn cli wallet balances
+  yarn cli wallet balances
 }
 
 
